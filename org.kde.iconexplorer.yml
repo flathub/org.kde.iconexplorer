@@ -14,7 +14,9 @@ cleanup:
   - /include
   - /lib/cmake
   - /lib/libexec
+  - /lib/pkgconfig
   - /mkspecs
+
 modules:
   - name: libplasma
     buildsystem: cmake-ninja
