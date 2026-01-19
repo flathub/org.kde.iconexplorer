@@ -22,8 +22,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.5.4/libplasma-6.5.4.tar.xz
-        sha256: 1ee9f37a6f1c26bec035360d09d81b44d7b6ed8c3f60a155d8b864c3a65006ee
+        url: https://download.kde.org/stable/plasma/6.5.5/libplasma-6.5.5.tar.xz
+        sha256: 7d88f9bd0f90b90f4d2290cd8fa0f37e7af3810a0ed58c7d226a02838ab8a71a
         x-checker-data:
           type: anitya
           project-id: 8761
@@ -60,8 +60,8 @@ modules:
       - -DENABLE_KAUTH_HELPER=OFF
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.5.4/libksysguard-6.5.4.tar.xz
-        sha256: 74f370be24722afa2ae79acf3d73edc6a23f0ecba8e0b717de973f5d0da0508e
+        url: https://download.kde.org/stable/plasma/6.5.5/libksysguard-6.5.5.tar.xz
+        sha256: 22b8e4812b1dfa6aef18f27d2ba66d6d7702b3e4db250cae48ab946196da734d
         x-checker-data:
           type: anitya
           project-id: 8761
@@ -71,8 +71,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.5.4/plasma5support-6.5.4.tar.xz
-        sha256: addeb62d9eee6e70a0642876ce00e27e437cfd6e6d0bdaee31a378c26ac3d258
+        url: https://download.kde.org/stable/plasma/6.5.5/plasma5support-6.5.5.tar.xz
+        sha256: 1a2f3e7ebb85e2a1c54c3aa32b712e8f285289758ba2c8236ec0dc66dd8c5cfd
         x-checker-data:
           type: anitya
           project-id: 8761
@@ -83,8 +83,8 @@ modules:
     builddir: true
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.5.4/plasma-sdk-6.5.4.tar.xz
-        sha256: 0d9cae752c21c75fa9c872fe7505ce36893c863210d73b68799a751b656e7b03
+        url: https://download.kde.org/stable/plasma/6.5.5/plasma-sdk-6.5.5.tar.xz
+        sha256: b6dc48520ccda4415b0aa6a66502db7180bcd3e1d8975a5f2040519ef70939c4
         x-checker-data:
           type: anitya
           project-id: 8761
