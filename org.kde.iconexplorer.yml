@@ -15,7 +15,13 @@ cleanup:
   - /lib/cmake
   - /lib/libexec
   - /lib/pkgconfig
+  - /man
   - /mkspecs
+  - /sbin
+  - /share/man
+  - /share/qlogging-categories6
+  - '*.la'
+  - '*.a'
 
 modules:
   - name: libplasma
