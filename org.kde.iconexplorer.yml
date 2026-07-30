@@ -45,7 +45,7 @@ modules:
           type: anitya
           project-id: 1684
           stable-only: true
-          url-template: https://github.com/thom311/libnl/releases/download/libnl${}_${version1}_${version2}/libnl-$version.tar.gz
+          url-template: https://github.com/thom311/libnl/archive/refs/tags/libnl$major_$minor_$patch.tar.gz
   - name: lm-sensors
     buildsystem: simple
     build-commands:
@@ -59,7 +59,7 @@ modules:
           type: anitya
           project-id: 1831
           stable-only: true
-          url-template: https://github.com/lm-sensors/lm-sensors/archive/refs/tags/V$version0-$version1-$version2.tar.gz
+          url-template: https://github.com/lm-sensors/lm-sensors/archive/refs/tags/V$major-$minor-$patch.tar.gz
   - name: libksysguard
     buildsystem: cmake-ninja
     config-opts:
