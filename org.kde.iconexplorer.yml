@@ -28,8 +28,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.7.2/libplasma-6.7.2.tar.xz
-        sha256: 133d8de5f00ad0d15b515ea9f13bc64fac7f7f52d077243dc8dfee16323f9f8c
+        url: https://download.kde.org/stable/plasma/6.7.5/libplasma-6.7.5.tar.xz
+        sha256: 27b28823254aa489c094c40a314ce1575fd7906eeb521e636bb8fd2dc2981f2f
         x-checker-data:
           type: anitya
           project-id: 8761
@@ -89,8 +89,8 @@ modules:
     builddir: true
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.7.2/plasma-sdk-6.7.2.tar.xz
-        sha256: 99743be267a4b55a664ed4847f8ef7e6e92829059946ce9e15e3ee9a14db7d28
+        url: https://download.kde.org/stable/plasma/6.7.5/plasma-sdk-6.7.5.tar.xz
+        sha256: b2d6cfb36dbe6a408f22c9ddabdae623eb7aa0de15485827f30a725a645e6e0f
         x-checker-data:
           type: anitya
           project-id: 8761
