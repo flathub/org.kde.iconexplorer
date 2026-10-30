@@ -28,8 +28,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.7.2/libplasma-6.7.2.tar.xz
-        sha256: 133d8de5f00ad0d15b515ea9f13bc64fac7f7f52d077243dc8dfee16323f9f8c
+        url: https://download.kde.org/stable/plasma/6.8.2/libplasma-6.8.2.tar.xz
+        sha256: d63a270b5aaba6144c1ddd215d509ff3b350d3d7a0ac08e539d58a043b061b29
         x-checker-data:
           type: anitya
           project-id: 8761
@@ -39,13 +39,15 @@ modules:
     buildsystem: autotools
     sources:
       - type: archive
-        url: https://github.com/thom311/libnl/releases/download/libnl3_11_0/libnl-3.11.0.tar.gz
+        url: 
+          https://github.com/thom311/libnl/releases/download/libnl3_11_0/libnl-3.11.0.tar.gz
         sha256: 2a56e1edefa3e68a7c00879496736fdbf62fc94ed3232c0baba127ecfa76874d
         x-checker-data:
           type: anitya
           project-id: 1684
           stable-only: true
-          url-template: https://github.com/thom311/libnl/archive/refs/tags/libnl$major_$minor_$patch.tar.gz
+          url-template: 
+            https://github.com/thom311/libnl/archive/refs/tags/libnl$major_$minor_$patch.tar.gz
   - name: lm-sensors
     buildsystem: simple
     build-commands:
@@ -59,15 +61,16 @@ modules:
           type: anitya
           project-id: 1831
           stable-only: true
-          url-template: https://github.com/lm-sensors/lm-sensors/archive/refs/tags/V$major-$minor-$patch.tar.gz
+          url-template: 
+            https://github.com/lm-sensors/lm-sensors/archive/refs/tags/V$major-$minor-$patch.tar.gz
   - name: libksysguard
     buildsystem: cmake-ninja
     config-opts:
       - -DENABLE_KAUTH_HELPER=OFF
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.7.2/libksysguard-6.7.2.tar.xz
-        sha256: 6f7dbf058e453c6d2d643cf5cf25051aa0398fa3c8f3cb754bf2e46434d94cd7
+        url: https://download.kde.org/stable/plasma/6.8.2/libksysguard-6.8.2.tar.xz
+        sha256: b9dbdcf73f32b88bf6ada9ff9fdb90d7bea4edb66ce708abb107eb64fad26a3f
         x-checker-data:
           type: anitya
           project-id: 8761
@@ -77,8 +80,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.7.2/plasma5support-6.7.2.tar.xz
-        sha256: 029173f7bdc6c4b6b88eebf5ceb417f42ffd405f8a31115c29df1af1ee728bad
+        url: https://download.kde.org/stable/plasma/6.8.2/plasma5support-6.8.2.tar.xz
+        sha256: 6d98603d6ec0826bd1fb7348a15e73d9011fd2035f03bda5f8e55210d62b24ed
         x-checker-data:
           type: anitya
           project-id: 8761
@@ -89,8 +92,8 @@ modules:
     builddir: true
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.7.2/plasma-sdk-6.7.2.tar.xz
-        sha256: 99743be267a4b55a664ed4847f8ef7e6e92829059946ce9e15e3ee9a14db7d28
+        url: https://download.kde.org/stable/plasma/6.8.2/plasma-sdk-6.8.2.tar.xz
+        sha256: 135ffe2f8ed53e188e283bbfd89767a39b91868f481dc903ce172252d696d7b7
         x-checker-data:
           type: anitya
           project-id: 8761
