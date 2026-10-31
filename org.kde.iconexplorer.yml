@@ -59,7 +59,7 @@ modules:
           type: anitya
           project-id: 1831
           stable-only: true
-          url-template: https://github.com/lm-sensors/lm-sensors/archive/refs/tags/V$major-$minor-$patch.tar.gz
+          url-template: https://github.com/lm-sensors/lm-sensors/archive/refs/tags/V$version.tar.gz
   - name: libksysguard
     buildsystem: cmake-ninja
     config-opts:
